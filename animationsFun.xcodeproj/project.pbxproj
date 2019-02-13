@@ -14,6 +14,8 @@
 		B6E28104220AB3A300605B0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E28102220AB3A300605B0E /* LaunchScreen.storyboard */; };
 		B6E2810F220AB3A300605B0E /* animationsFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2810E220AB3A300605B0E /* animationsFunTests.swift */; };
 		B6E2811A220AB3A300605B0E /* animationsFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E28119220AB3A300605B0E /* animationsFunUITests.swift */; };
+		B6E28128220AB49F00605B0E /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E28127220AB49F00605B0E /* UIButtonExt.swift */; };
+		B6E2812A220ABA3100605B0E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E28129220ABA3100605B0E /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B6E28115220AB3A300605B0E /* animationsFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animationsFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E28119220AB3A300605B0E /* animationsFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationsFunUITests.swift; sourceTree = "<group>"; };
 		B6E2811B220AB3A300605B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E28127220AB49F00605B0E /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		B6E28129220ABA3100605B0E /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				B6E28100220AB3A300605B0E /* Assets.xcassets */,
 				B6E28102220AB3A300605B0E /* LaunchScreen.storyboard */,
 				B6E28105220AB3A300605B0E /* Info.plist */,
+				B6E28127220AB49F00605B0E /* UIButtonExt.swift */,
+				B6E28129220ABA3100605B0E /* Helpers.swift */,
 			);
 			path = animationsFun;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6E280FC220AB3A100605B0E /* ViewController.swift in Sources */,
+				B6E28128220AB49F00605B0E /* UIButtonExt.swift in Sources */,
 				B6E280FA220AB3A100605B0E /* AppDelegate.swift in Sources */,
+				B6E2812A220ABA3100605B0E /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
